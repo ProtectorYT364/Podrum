@@ -41,13 +41,21 @@ Linux and MacOS (Unix systems):
 ```sh
 pip3 install -r ./requirements.txt
 python3 __main__.py
-```
 
 Windows:
 ```batch
 pip install -r ./requirements.txt
 python __main__.py
-```
+
+Android:
+```Termux
+pkg install git
+pkg install pip
+pkg install Python
+git clone https://github.com/Podrum/Podrum
+cd Podrum
+pip install -r ./requirements.txt
+python podrum
 
 # FAQ:
  - Can I contribute?
